@@ -1,0 +1,77 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+h1,h2,h3,h4,h5{
+	text-transform: uppercase;
+}
+nav{
+	top: 0px;
+	background: #1aa3ff;
+	width: 100%;
+}
+nav ul{
+	text-align: right;
+	padding: 5px 5px;
+}
+nav ul li{
+	display: inline;
+	padding: 5px 10px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.header{
+	width: 100%;
+	height:400px;
+	color: #000;
+	background: url("../images/img5.jpeg");
+}
+.header div{
+	padding:60px 60px;
+	text-align: right;
+}
+.header a{
+	padding: 5px;
+	background: #1aa3ff;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+}
+.section2{
+	display: inline;
+	width: 100%;
+	box-sizing: border-box;
+}
+.section2 div{
+	box-sizing: border-box;
+	width: 50%;
+	float: left;
+	text-align: center;
+	height: 200px;
+	margin: 10px;
+}
+.section2 a{
+	text-decoration: none;
+	padding: 10px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	color: #fff;
+	position: absolute;
+}
+#div1{
+	background: url("../images/img1.jpg");
+}
+#div2{
+	background: url("../images/img2.jpg");
+}
+#div3{
+	background: url("../images/img3.jpg");
+}
+#div4{
+	background: url("../images/img4.jpg");
+}
+@media screen and (min-width: 768px) {
+	.section2 div{
+		width: 25%;
+	}
+}
